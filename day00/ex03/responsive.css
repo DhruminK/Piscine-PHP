@@ -1,0 +1,86 @@
+@media screen and (max-width: 750px)
+{
+	td
+	{
+		font-size: 2vw !important
+	}
+
+	td > p
+	{
+		font-size: 1vw !important;
+	}
+}
+
+@media screen and (min-width: 750px)
+{
+	td
+	{
+		font-size: 1em !important;
+	}
+
+	td > p
+	{
+		font-size: xx-small !important;
+	}
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2017/11/11/11/30/chemistry-2938901__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+table {
+    margin: auto auto;
+    width: 75%;
+    min-width: 300px;
+}
+td {
+    text-align: center;
+    border: 1px solid;
+}
+.atomic-number {
+    display: block;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.atomic-wieght {
+    display: block;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.no_border {
+    background: none !important;
+    border: none !important;
+}
+.metal {
+    background-color: #ff6666;
+}
+.alkaline-metal {
+    background-color: #ffdead;
+}
+.transistion-metal {
+    background-color: #ffc0c0;
+}
+.actinide {
+    background-color: #ff99cc;
+}
+.lanthanide {
+    background-color: #ffbfff;
+}
+.unknown {
+    background-color: #e8e8e8;
+}
+.post-transistion-metal {
+    background-color: #cccccc;
+}
+.metalloid {
+    background-color: #cccc99;
+}
+.reactive-metal {
+    background-color: #f0ff8f;
+}
+.noble-gas {
+    background-color: #c0ffff;
+}
